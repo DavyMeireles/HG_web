@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ficha de Captação HG Soluções Imobiliárias</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Assets/CSS/estilos.css">
 </head>
+
 <body>
     <main id="container">
         <form id="login_form">
             <div id="div1">
                 <div class="cabeca">
-                <p><b>Ficha de Captação HG Soluções Imobiliárias</b></p>
-                <i id="lua" class="fa-solid fa-moon"></i>
+                    <p><b>Ficha de Captação HG Soluções Imobiliárias</b></p>
+                    <i id="lua" class="fa-solid fa-moon"></i>
                 </div>
                 <div class="inputbox">
                     <label for="codigo">
@@ -94,328 +98,434 @@
             <div id="caixa2">
                 <h2>Dados do Imóvel</h2>
                 <div class="inputbox">
-                <label for="endereco">
-                    Endereço
-                    <div class="input-field">
-                        <input type="text" name="endereco" id="endereco">
-                    </div>
-                </label>
-                <label for="numero">
-                    Número
-                    <div class="input-field">
-                        <input type="numeric" name="numero" id="numero">
-                    </div>
-                </label>
-                <label for="bairro">
-                    Bairro
-                    <div class="input-field">
-                        <input type="text" name="bairro" id="bairro">
-                    </div>
-                </label>
-                <label for="cidade">
-                    Cidade
-                    <div class="input-field">
-                        <input type="text" name="cidade" id="cidade">
-                    </div>
-                </label>
-                <label for="condominio">
-                    Condomínio / edifício
-                    <div class="input-field">
-                        <input type="text" name="condominio" id="condominio">
-                    </div>
-                </label>
-                <label for="complemento">
-                    Complemento
-                    <div class="input-field">
-                        <input type="text" name="complemento" id="complemento">
-                    </div>
-                </label>
-                <label for="referencia">
-                    Referência
-                    <div class="input-field">
-                        <input type="text" name="referencia" id="referencia">
-                    </div>
-                </label>
-                <label for="cep">
-                    CEP
-                    <div class="input-field">
-                        <input type="text" name="cep" id="cep">
-                    </div>
-                </label>
-                <label for="estado">
-                    Estado
-                    <div class="input-field">
-                        <input type="text" name="estado" id="estado">
-                    </div>
-                </label>
-                <label for="situacao">
-                    Situação
-                    <div class="input-field">
-                        <input type="radio" name="situacao" id="situacao"> Venda
-                        <input type="radio" name="situacao" id="situacao"> Aluguel
-                        <input type="radio" name="situacao" id="situacao"> Ambos
-                    </div>
-                </label>
-                <label for="tipo-imovel">
-                    Tipo do Imóvel
-                    <div class="input-field">
-                        <input type="text" name="tipo-imovel" id="tipo-imovel">
-                    </div>
-                </label>
-                <label for="condominio">
-                    Condomínio
-                    <div class="input-field">
-                        <input type="text" name="condominio" id="condominio">
-                    </div>
-                </label>
-                <label for="valor">
-                    Valor
-                    <div class="input-field">
-                        <input type="text" name="valor" id="valor">
-                    </div>
-                </label>
-                <label for="iptu">
-                    IPTU
-                    <div class="input-field">
-                        <input type="text" name="iptu" id="iptu">
-                    </div>
-                </label>
-                <label for="permuta">
-                    Permuta
-                    <div class="input-field">
-                        <input type="radio" name="permuta" id="permuta"> Sim
-                        <input type="radio" name="permuta" id="permuta"> Não
-                    </div>
-                </label>
-                <label for="tipo-permuta">
-                    Tipo de Permuta
-                    <div class="input-field">
-                        <input type="text" name="tipo-permuta" id="tipo-permuta">
-                    </div>
-                </label>
-                <label for="valor-permuta">
-                    Valor Máximo
-                    <div class="input-field">
-                        <input type="text" name="valor-permuta" id="valor-permuta">
-                    </div>
-                </label>
-                <label for="ocupacao">
-                    Ocupação
-                    <div class="input-field">
-                        <input type="radio" name="ocupacao" id="ocupacao"> Em construção
-                        <input type="radio" name="ocupacao" id="ocupacao"> Inquilino
-                        <input type="radio" name="ocupacao" id="ocupacao"> Prprietário Reside
-                        <input type="radio" name="ocupacao" id="ocupacao"> Vazio
-                        <input type="radio" name="ocupacao" id="ocupacao"> Lançamento
-                        <input type="radio" name="ocupacao" id="ocupacao"> Planta
-                    </div>
-                </label>
-                <label for="dormitorios">
-                    Dormitórios
-                    <div class="input-field">
-                        <select name="dormitorios" id="dormitorios">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">+5</option>
-                        </select>
-                    </div>
-                </label>
-                <label for="suite">
-                    Suítes
-                    <div class="input-field">
-                        <select name="suite" id="suite">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">+5</option>
-                        </select>
-                    </div>
-                </label>
-                <label for="sala">
-                    Salas
-                    <div class="input-field">
-                        <select name="sala" id="sala">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">+5</option>
-                        </select>
-                    </div>
-                </label>
-                <label for="banho">
-                    Banhos
-                    <div class="input-field">
-                        <select name="banho" id="banho">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">+4</option>
-                        </select>
-                    </div>
-                </label>
-                <label for="vaga">
-                    Vagas
-                    <div class="input-field">
-                        <select name="vaga" id="vaga">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">+5</option>
-                            <option value="">0</option>
-                        </select>
-                    </div>
-                </label>
-                <label for="varanda">
-                    Varanda
-                    <div class="input-field">
-                        <input type="radio" name="varanda" id="varanda"> Sim
-                        <input type="radio" name="varanda" id="varanda"> Não
-                    </div>
-                </label>
-                <label for="area-util">
-                    Área útil Total
-                    <div class="input-field">
-                        <input type="text" name="area-util" id="area-util">
-                    </div>
-                </label>
-                <label for="lote">
-                    Área Lote/ Terreno
-                    <div class="input-field">
-                        <input type="text" name="Lote" id="lote">
-                    </div>
-                </label>
-                <label for="area-construida">
-                    Área Construída
-                    <div class="input-field">
-                        <input type="text" name="area-construida" id="area-construida">
-                    </div>
-                </label>
-                <label for="frente">
-                    Frente
-                    <div class="input-field">
-                        <input type="text" name="frente" id="frente">
-                    </div>
-                </label>
+                    <label for="endereco">
+                        Endereço
+                        <div class="input-field">
+                            <input type="text" name="endereco" id="endereco">
+                        </div>
+                    </label>
+                    <label for="numero">
+                        Número
+                        <div class="input-field">
+                            <input type="numeric" name="numero" id="numero">
+                        </div>
+                    </label>
+                    <label for="bairro">
+                        Bairro
+                        <div class="input-field">
+                            <input type="text" name="bairro" id="bairro">
+                        </div>
+                    </label>
+                    <label for="cidade">
+                        Cidade
+                        <div class="input-field">
+                            <input type="text" name="cidade" id="cidade">
+                        </div>
+                    </label>
+                    <label for="condominio">
+                        Condomínio / edifício
+                        <div class="input-field">
+                            <input type="text" name="condominio" id="condominio">
+                        </div>
+                    </label>
+                    <label for="complemento">
+                        Complemento
+                        <div class="input-field">
+                            <input type="text" name="complemento" id="complemento">
+                        </div>
+                    </label>
+                    <label for="referencia">
+                        Referência
+                        <div class="input-field">
+                            <input type="text" name="referencia" id="referencia">
+                        </div>
+                    </label>
+                    <label for="cep">
+                        CEP
+                        <div class="input-field">
+                            <input type="text" name="cep" id="cep">
+                        </div>
+                    </label>
+                    <label for="estado">
+                        Estado
+                        <div class="input-field">
+                            <input type="text" name="estado" id="estado">
+                        </div>
+                    </label>
+                    <label for="situacao">
+                        Situação
+                        <div class="input-field">
+                            <input type="radio" name="situacao" id="situacao"> Venda
+                            <input type="radio" name="situacao" id="situacao"> Aluguel
+                            <input type="radio" name="situacao" id="situacao"> Ambos
+                        </div>
+                    </label>
+                    <label for="tipo-imovel">
+                        Tipo do Imóvel
+                        <div class="input-field">
+                            <input type="text" name="tipo-imovel" id="tipo-imovel">
+                        </div>
+                    </label>
+                    <label for="condominio">
+                        Condomínio
+                        <div class="input-field">
+                            <input type="text" name="condominio" id="condominio">
+                        </div>
+                    </label>
+                    <label for="valor">
+                        Valor
+                        <div class="input-field">
+                            <input type="text" name="valor" id="valor">
+                        </div>
+                    </label>
+                    <label for="iptu">
+                        IPTU
+                        <div class="input-field">
+                            <input type="text" name="iptu" id="iptu">
+                        </div>
+                    </label>
+                    <label for="permuta">
+                        Permuta
+                        <div class="input-field">
+                            <input type="radio" name="permuta" id="permuta"> Sim
+                            <input type="radio" name="permuta" id="permuta"> Não
+                        </div>
+                    </label>
+                    <label for="tipo-permuta">
+                        Tipo de Permuta
+                        <div class="input-field">
+                            <input type="text" name="tipo-permuta" id="tipo-permuta">
+                        </div>
+                    </label>
+                    <label for="valor-permuta">
+                        Valor Máximo
+                        <div class="input-field">
+                            <input type="text" name="valor-permuta" id="valor-permuta">
+                        </div>
+                    </label>
+                    <label for="ocupacao">
+                        Ocupação
+                        <div class="input-field">
+                            <input type="radio" name="ocupacao" id="ocupacao"> Em construção
+                            <input type="radio" name="ocupacao" id="ocupacao"> Inquilino
+                            <input type="radio" name="ocupacao" id="ocupacao"> Prprietário Reside
+                            <input type="radio" name="ocupacao" id="ocupacao"> Vazio
+                            <input type="radio" name="ocupacao" id="ocupacao"> Lançamento
+                            <input type="radio" name="ocupacao" id="ocupacao"> Planta
+                        </div>
+                    </label>
+                    <label for="dormitorios">
+                        Dormitórios
+                        <div class="input-field">
+                            <select name="dormitorios" id="dormitorios">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">+5</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label for="suite">
+                        Suítes
+                        <div class="input-field">
+                            <select name="suite" id="suite">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">+5</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label for="sala">
+                        Salas
+                        <div class="input-field">
+                            <select name="sala" id="sala">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">+5</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label for="banho">
+                        Banhos
+                        <div class="input-field">
+                            <select name="banho" id="banho">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">+4</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label for="vaga">
+                        Vagas
+                        <div class="input-field">
+                            <select name="vaga" id="vaga">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">+5</option>
+                                <option value="">0</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label for="varanda">
+                        Varanda
+                        <div class="input-field">
+                            <input type="radio" name="varanda" id="varanda"> Sim
+                            <input type="radio" name="varanda" id="varanda"> Não
+                        </div>
+                    </label>
+                    <label for="area-util">
+                        Área útil Total
+                        <div class="input-field">
+                            <input type="text" name="area-util" id="area-util">
+                        </div>
+                    </label>
+                    <label for="lote">
+                        Área Lote/ Terreno
+                        <div class="input-field">
+                            <input type="text" name="Lote" id="lote">
+                        </div>
+                    </label>
+                    <label for="area-construida">
+                        Área Construída
+                        <div class="input-field">
+                            <input type="text" name="area-construida" id="area-construida">
+                        </div>
+                    </label>
+                    <label for="frente">
+                        Frente
+                        <div class="input-field">
+                            <input type="text" name="frente" id="frente">
+                        </div>
+                    </label>
                 </div>
             </div>
             <div id="caixa3">
                 <h2>Detalhes Adicionais</h2>
                 <label for="caracteristicas">
                     Caracteristicas do Imóvel/ Condomínio
-                    <div class="inputcheck">
-                        <label for="aquecimentoSolar"> Aquecimento Solar</label>
-                        <input type="checkbox" name="aquecimentoSolar" id="aquecimentoSolar">
-                        <label for="areaprivativa"> Área Privativa</label>
-                        <input type="checkbox" name="areaprivativa" id="areaprivativa">
-                        <label for="banhoEmpregados"> Banho Empregados</label>
-                        <input type="checkbox" name="banhoEmpregados" id="banhoEmpregados"> 
-                        <label for="closet"> Closet</label>
-                        <input type="checkbox" name="closet" id="closet">
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Dispensa
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Petplace
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Interfone
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Lavabo
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Playground
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Porteiro Fisíco 
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Brinquedoteca
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Planejados
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Salão de Jogos
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Ar Condionado Central
-                        <label for=""> Aquecimento Solar</label>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Banheiros com Armários
-                        <label for=""> Aquecimento Solar</label>
-                        <select name="banhos-armarios" id="banhos-armarios">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">+3</option>
-                        </select>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Churrasqueira
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Cozinha com Armários
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Elevador de serviço
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Gás Canalizado
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Academia
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Medidor Individual de Água
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Pisccina
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Quadras Esportes
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Quartos com Armários
-                        <select name="quarto-armarios" id="quarto-armarios">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">+3</option>
-                        </select>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Sala de Ginástica
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Sauna
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> área de Lazer
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Banhos com Box
-                        <select name="banhos-box" id="banhos-box">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">+3</option>
-                        </select>
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Circuito de TV
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Mini Mercado
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Elevador social
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Hall Social Decorado
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Jardins
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Mobiliados
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Portão Eletrônico
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Quarto Despejo
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Rebaixamento em Gesso
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Salão de Festas
-                        <input type="checkbox" name="caracteristicas" id="caracteristicas"> Sol da Manhã
+                    <div class="div-container-checkbox grid">
+                        <div class="grid-item">
+                            <label for="aquecimentoSolar"> Aquecimento Solar</label>
+                            <input type="checkbox" name="aquecimentoSolar" id="aquecimentoSolar">
+                        </div>
+                        <div class="grid-item">
+                            <label for="areaprivativa"> Área Privativa</label>
+                            <input type="checkbox" name="areaprivativa" id="areaprivativa">
+                        </div>
+                        <div class="grid-item">
+                            <label for="banhoEmpregados"> Banho Empregados</label>
+                            <input type="checkbox" name="banhoEmpregados" id="banhoEmpregados">
+                        </div>
+                        <div class="grid-item">
+                            <label for="closet"> Closet</label>
+                            <input type="checkbox" name="closet" id="closet">
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Dispensa
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Petplace
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Interfone
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Lavabo
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Playground
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Porteiro Fisíco
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Brinquedoteca
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Planejados
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Salão de Jogos
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Ar Condionado Central
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"> Banheiros com Armários
+                        </div>
+                        <div class="grid-item">
+                            <label for=""> Aquecimento Solar</label>
+                            <select name="banhos-armarios" id="banhos-armarios">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">+3</option>
+                            </select>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Churrasqueira</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas" />
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Cozinha com Armários</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas" />
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Elevador de serviço</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas" />
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Gás Canalizado</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas" />
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Academia</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas" />
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Medidor Individual de Água</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas" />
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Piscina</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Quadras Esportes</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Quarto com Armários</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                            <select name="quarto-armarios" id="quarto-armarios">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">+3</option>
+                            </select>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Sala de Ginástica</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Sauna</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Área de Lazer</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Banhos com box</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                            <select name="banhos-box" id="banhos-box">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">+3</option>
+                            </select>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Circuito de TV</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Mini Mercado</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Elevador Social</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Hall Social Decorado</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Jardins</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Mobiliados</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Portão Eletrônico</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Quarto Despejo</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Rebaixamento em Gesso</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Salão de Festas</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Sol da manhã</label>
+                            <input type="checkbox" name="caracteristicas" id="caracteristicas"/>
+                        </div>
                     </div>
                 </label>
                 <h2>Documentação do Imóvel</h2>
-                <label for="docuemntacao">
-                        <div class="inputs">
+                <label for="documentacao">
+                    <div class="grid">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> Escritura
                         </div>
-                        <div class="inputs">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> Registro
                         </div>
-                        <div class="inputs">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> Contrato
                         </div>
-                        <div class="inputs">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> IPTU
                         </div>
-                        <div class="inputs">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> Alvará
                         </div>
-                        <div class="inputs">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> Habite-se
                         </div>
-                        <div class="inputs">
+                        <div class="grid-item">
                             <input type="checkbox" name="docuemntacao" id="docuemntacao"> Autorização
                         </div>
-                        <div class="inputs">
-                            <input type="checkbox" name="docuemntacao" id="docuemntacao"> Outros                  
+                        <div class="grid-item">
+                            <input type="checkbox" name="docuemntacao" id="docuemntacao"> Outros
                         </div>
                         <p><b>Escreva detalhes sobre o imóvel, IPTU,Condomínio ou Síndico aqui</b></p>
-                            <textarea id="" cols="30" rows="10"> </textarea> 
+                        <textarea id="" cols="30" rows="10"> </textarea>
+                    </div>
                 </label>
             </div>
             <div id="caixa">
@@ -450,4 +560,5 @@
         </form>
     </main>
 </body>
+
 </html>
