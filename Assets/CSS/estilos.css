@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-light-50: #faf8fc;
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-1000: #000;
+
+
+    --color-orange-50:#FF8C00;
+    --color-orange-00: #FFA500;
+    --color-orange-100: #cc8400;
+
+
+    --color-gradient: linear-gradient(90deg, var(--color-orange-00),var(--color-orange-50),var(--color-orange-100));
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: var(--color-gradient);
+    justify-content: center;
+    
+}
+
+#login_form{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--color-light-50);
+    justify-content: center;
+    height: fit-content;
+    width: 80%;
+    padding: 20px 30px;
+    border-radius: 30px;
+    gap: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+}
+
+#div1{
+    width: 100%;    
+}
+
+#caixa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 25px;
+    position: relative;
+}
+
+p::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    background-color: var(--color-orange-100);
+    height: 3px;
+    bottom: 3px;
+    border-radius: 5px;
+
+}
+
+#lua{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#caixa2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.inputcheck{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: space-between;
+    background-color: #312d37;
+    height: fit-content;
+ 
+}
