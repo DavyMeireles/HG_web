@@ -1,39 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-:root{
+:root {
     --color-light-50: #faf8fc;
     --color-dark-50: #797984;
     --color-dark-100: #312d37;
     --color-dark-1000: #000;
 
 
-    --color-orange-50:#FF8C00;
+    --color-orange-50: #FF8C00;
     --color-orange-00: #FFA500;
     --color-orange-100: #cc8400;
 
 
-    --color-gradient: linear-gradient(90deg, var(--color-orange-00),var(--color-orange-50),var(--color-orange-100));
+    --color-gradient: linear-gradient(90deg, var(--color-orange-00), var(--color-orange-50), var(--color-orange-100));
 }
 
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-#container{
+#container {
     height: 100vh;
     width: 100%;
     display: flex;
     background: var(--color-gradient);
     justify-content: center;
-    
+
 }
 
-#login_form{
+#login_form {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -47,27 +47,27 @@
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
 }
 
-#div1{
-    width: 100%;    
+#div1 {
+    width: 100%;
 }
 
-#caixa{
+#caixa {
     display: flex;
     justify-content: space-between;
 }
 
-.cabeca{
+.cabeca {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-p{
+p {
     font-size: 25px;
     position: relative;
 }
 
-p::before{
+p::before {
     position: absolute;
     content: "";
     width: 50%;
@@ -78,38 +78,45 @@ p::before{
 
 }
 
-#lua{
+#lua {
     cursor: pointer;
     font-size: 25px;
 }
 
-.inputbox{
+.inputbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
 }
 
-#caixa2{
+#caixa2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.input-field{
+.input-field {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
 }
 
-.inputcheck{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: fit-content;
-    justify-content: space-between;
+.div-container-checkbox {
     background-color: #312d37;
-    height: fit-content;
- 
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: start;
+    padding: 20px 0px;
 }
